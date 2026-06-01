@@ -47,6 +47,7 @@ During every change, check for:
 - Generated artifacts, caches, logs, or local files that should not be committed
 - Security-sensitive defaults that could leak data or weaken the project
 
+Always check for any security vulnerability using `pnpm audit` and fix them into a separate commit.
 
 ## 0. Non-negotiables
 

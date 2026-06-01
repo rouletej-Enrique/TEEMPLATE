@@ -37,7 +37,6 @@ git clone https://github.com/rouletej-Enrique/Template ~/Desktop/XDS
 
 Si queres que el destino sea otro, cambialo despues del espacio, o ponele `./` adelante para que te lo clone donde estas corriendo el comando.
 
-
 ```bash
 git clone https://github.com/rouletej-Enrique/Template ./XDS
 ```
@@ -98,3 +97,4 @@ El agente debe detectar `.agents/BOOT.md`, leer el contexto disponible en `.samp
 
 > [!IMPORTANT]
 > Si queres que claude haga todo sin estar preguntandote cada 2 segundos de aprovar cualquier comando, podes correrlo con `claude --allow-dangerously-skip-permissions`
+> Con SHIFT+TAB switcheas de modos: approve all, que te pregunte a cada rato, que entre en plan mode, etc.

@@ -44,3 +44,5 @@ Once enough context exists and the initial setup is complete:
 1. Remove the first-time setup callout from `AGENTS.md`.
 2. Delete this file: `.agents/BOOT.md`.
 3. Delete all placeholder data from `README.md` and continue with normal project work.
+
+> If the project uses npm, prefer pnpm as package manager.
