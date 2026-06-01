@@ -1,0 +1,42 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+pnpm-lock.yaml
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# leftover portfolio notes / local tooling settings
+/Teachings.md
+/.claude/
+
+# source media + personal files from the original portfolio (not used by the app;
+# the site serves its assets from /public). Excluded to keep the repo clean.
+/assets/

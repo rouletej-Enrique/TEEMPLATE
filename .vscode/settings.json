@@ -1,0 +1,36 @@
+{
+  // Editor Preferences
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+  
+  // File Management
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/CLAUDE.md": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.DS_Store": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/CLAUDE.md": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.DS_Store": true,
+    "**/dist": true
+  },
+  
+  // Language-Specific Settings
+  "[python]": {
+    "editor.tabSize": 4,
+    "python.linting.pylintEnabled": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  
+} 
