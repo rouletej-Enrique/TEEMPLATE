@@ -29,6 +29,19 @@ Eso va a clonar este boilerplate en:
 ~/Desktop/XDS
 ```
 
+Tambien podes hacerlo directamente asi:
+
+```bash
+git clone https://github.com/rouletej-Enrique/Template ~/Desktop/XDS
+```
+
+Si queres que el destino sea otro, cambialo despues del espacio, o ponele `./` adelante para que te lo clone donde estas corriendo el comando.
+
+
+```bash
+git clone https://github.com/rouletej-Enrique/Template ./XDS
+```
+
 ## 2. Preparar el proyecto
 
 Antes de pedirle al agente que empiece a trabajar, agregá el contexto necesario.
