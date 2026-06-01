@@ -13,14 +13,14 @@ PROJECT_NAME="NOMBRE_DE_TU_PROYECTO"
 Después cloná este repositorio en tu escritorio:
 
 ```bash
-git clone https://github.com/rouletej-Enrique/TEEMPLATE ~/Desktop/${PROJECT_NAME}
+git clone https://github.com/rouletej-Enrique/Template ~/Desktop/${PROJECT_NAME}
 ```
 
 Ejemplo:
 
 ```bash
 PROJECT_NAME="XDS"
-git clone https://github.com/rouletej-Enrique/TEEMPLATE ~/Desktop/${PROJECT_NAME}
+git clone https://github.com/rouletej-Enrique/Template ~/Desktop/${PROJECT_NAME}
 ```
 
 Eso va a clonar este boilerplate en:
@@ -28,8 +28,6 @@ Eso va a clonar este boilerplate en:
 ```bash
 ~/Desktop/XDS
 ```
-
-> Si el nombre del repositorio `TEEMPLATE` es un typo o lo modificas despues, corregilo antes de usar el comando.
 
 ## 2. Preparar el proyecto
 

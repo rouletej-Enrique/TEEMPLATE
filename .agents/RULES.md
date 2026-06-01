@@ -33,6 +33,21 @@ ln -s AGENTS.md GEMINI.md
 > - Sonnet Executes.
 > - Opus Thinks.
 
+### Style and Security Baseline
+
+Always preserve the repository's existing style, conventions, and project standards. Match the current codebase before introducing new patterns.
+
+Only compromise on style when required for security, correctness, or maintainability.
+
+During every change, check for:
+
+- Files that should be added to `.gitignore`
+- Exposed secrets or environment variables
+- Hardcoded credentials, tokens, keys, or private URLs
+- Generated artifacts, caches, logs, or local files that should not be committed
+- Security-sensitive defaults that could leak data or weaken the project
+
+
 ## 0. Non-negotiables
 
 These rules override everything else in this file when in conflict:
